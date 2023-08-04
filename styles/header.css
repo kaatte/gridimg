@@ -15,18 +15,94 @@
     position: relative;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-
+.container{  color: va  color: var(--amarelo);
 }
-.container__imagem{
+
+.Item_Li{
+  background: var(--roxo-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.Titulo_Li, .Item_Li{
+  padding: 1em;
+  background-color: var(--branco)
+}
+
+.nomecolegio{
+  display:none;
+}
+
+@media screen and (min-width:1024px){
+.nomecolegio{
+  font-size: 30px;
+  color: rgb(190, 45, 248);
+  display: block ;
+}
+}
+  r(--amarelo);
+}
+
+.Item_Li{
+  background: var(--roxo-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.Titulo_Li, .Item_Li{
+  padding: 1em;
+  background-color: var(--branco)
+}
+
+.nomecolegio{
+  display:none;
+}
+
+@media screen and (min-width:1024px){
+.nomecolegio{
+  font-size: 30px;
+  color: rgb(190, 45, 248);
+  display: block ;
+}
+}
+  
     padding: 1em;
 
 }
 
 .lista-menu{
-    display: none;
+    display: none;  color: var(--amarelo);
+  }
+  
+  .Item_Li{
+    background: var(--roxo-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+  }
+  
+  .Titulo_Li, .Item_Li{
+    padding: 1em;
+    background-color: var(--branco)
+  }
+  
+  .nomecolegio{
+    display:none;
+  }
+  
+  @media screen and (min-width:1024px){
+  .nomecolegio{
+    font-size: 30px;
+    color: rgb(190, 45, 248);
+    display: block ;
+  }
+  }
+    
     position: absolute;
     top: 100%;
     background: var(--branco);
@@ -57,3 +133,16 @@
   padding: 1em;
   background-color: var(--branco)
 }
+
+.nomecolegio{
+  display:none;
+}
+
+@media screen and (min-width:1024px){
+.nomecolegio{
+  font-size: 30px;
+  color: rgb(190, 45, 248);
+  display: block ;
+}
+}
+  
